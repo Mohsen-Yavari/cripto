@@ -1,0 +1,48 @@
+.container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      margin: 10px;
+      
+      
+     
+}
+.container:last-child{
+    border:none;
+}
+.image{
+    width:50px;
+}
+.name{
+    font-size:16px;
+    font-weight:bold;
+    width: 140px;
+    margin-left:15px;
+    text-align:left;
+}
+.symbol{
+    font: size 20px;
+    text-align: left;
+    width:100px;
+}
+.pric{
+    text-align:left;
+    width: 100px;
+}
+
+
+.grrenChang,
+.redChang{
+    width:100px;
+    text-align:left;
+    font-weight: bold;
+    
+
+}
+.grrenChang{
+    color:green;
+}
+.redChang{
+    color:red;
+}
